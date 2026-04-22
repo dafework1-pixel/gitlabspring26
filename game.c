@@ -14,7 +14,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-void jbInit();
+void jbInit(void);
 
 
 
@@ -119,6 +119,7 @@ int main(int argc, char *argv[])
 			}
 			case 17:
 			{
+				jbInit();
 				puts("room17");
 				break;
 			}
@@ -425,5 +426,5 @@ int main(int argc, char *argv[])
 //place functions here
 void jbInit()
 {
-printf("JB\n");
+	puts("jbRoom17");
 }
